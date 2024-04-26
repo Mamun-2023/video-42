@@ -1,0 +1,134 @@
+/* boxes styles */
+
+.boxes {
+  border: 3px solid rgb(23, 8, 235);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* box styles */
+
+.box {
+  margin: 5px;
+  height: 150px;
+  width: 150px;
+  border: 2px solid rgb(116, 37, 37);
+  background-color: rgb(135, 151, 176);
+}
+
+/* box-1 related styles */
+.box-1:hover {
+  transform: rotate(-50deg);
+  transition-delay: 1s;
+  background-color: rgb(72, 25, 146);
+  text-align: center;
+}
+
+/* box-2 related styles */
+.box-2:hover {
+  transform: rotateX(40deg);
+  transition-delay: 1s;
+  background-color: rgb(71, 146, 25);
+  text-align: center;
+}
+
+/* box-3 related styles */
+.box-3:hover {
+  transform: rotateY(45deg);
+  transition-delay: 1s;
+  background-color: rgb(146, 25, 88);
+  text-align: center;
+}
+
+/* box-4 related styles */
+
+.box-4:hover {
+  transform: rotateZ(50deg);
+  transition-delay: 1s;
+  background-color: rgb(168, 178, 28);
+  text-align: center;
+}
+
+/* box-5 related styles */
+.box-5:hover {
+  transform: scale(1.5);
+  transition-delay: 1s;
+  background-color: rgb(146, 25, 88);
+  text-align: center;
+}
+
+/* box-6 related styles */
+.box-6:hover {
+  transform: scaleX(1.6);
+  transition-delay: 1s;
+  background-color: rgb(25, 146, 65);
+  text-align: center;
+}
+
+/* box-7 related styles */
+.box-7:hover {
+  transform: scaleY(1.7);
+  transition-delay: 1s;
+  background-color: rgb(146, 116, 25);
+  text-align: center;
+}
+/* box-8 related styles */
+.box-8:hover {
+  transform: scale3d(-2, 1, -3);
+  transition-delay: 1s;
+  background-color: rgb(25, 116, 146);
+  text-align: center;
+}
+
+/* box-9 related styles */
+.box-9:hover {
+  transform: skew(-50deg);
+  transition-delay: 1s;
+  background-color: rgb(155, 169, 116);
+  text-align: center;
+}
+
+/* box-10 related styles */
+.box-10:hover {
+  transform: skewX(50deg);
+  transition-delay: 1s;
+  background-color: rgb(146, 25, 88);
+  text-align: center;
+}
+/* box-11 related styles */
+.box-11:hover {
+  transform: skewY(50deg);
+  transition-delay: 1s;
+  background-color: rgb(146, 59, 25);
+  text-align: center;
+}
+
+/* box-`12 related styles */
+.box-12:hover {
+  transform: translate(123px);
+  transition-delay: 1s;
+
+  background-color: rgb(134, 84, 19);
+}
+
+/* transform: rotate(30deg); */
+/* transform: rotate(0.5turn); */
+/* transform: rotateX(80deg); */
+/* transform: rotateY(30deg); */
+/* transform: rotateZ(30deg); */
+/* transform: scale(1.6); */
+/* transform: scaleX(1.3); */
+/* transform: scaleY(1.6); */
+/* transform: scaleZ(1.6); */
+/* transform: skew(20deg);
+        /* transform: skew(20deg); */
+/* transform: skewY(30deg); */
+/* transform: skewY(20deg); */
+
+/* skew can not use in skewZ */
+/* transform: skewZ(20deg); */
+/* transform: translate(120%); */
+/* transform: translate(120px); */
+/* transform: translateY(120px); */
+/* transform: translate(120px); */
+/* transform: translateY(120px) skewX(20deg) translateX(50px) rotate(-30deg) scaleY(1.5); */
